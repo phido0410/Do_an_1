@@ -41,6 +41,13 @@ st.image("banner_cauthu.png", use_column_width=True)
 player_id = st.text_input("Nhập ID cầu thủ:")
 match_ids = st.text_input("Nhập 5 ID trận đấu (ngăn cách bằng dấu phẩy):")
 
+# Mục hiển thị gợi ý
+st.subheader("Gợi ý ID cầu thủ")
+suggestion_text = st.text_area("Gợi ý về cầu thủ và ID trận đấu:", 
+                                 "1. Erling Haaland - id: 839956  - id 5 trận gần nhất: 12437049, 12764347, 12437039, 12057855, 12057850\n"
+                                 "2. Lionel Messi - id: 123456 - id 5 trận gần nhất: 12437058, 12437060, 12437061, 12057870, 12057871",
+                                 height=150)
+
 # Nút lấy dữ liệu
 if st.button("Lấy dữ liệu"):
     if player_id and match_ids:

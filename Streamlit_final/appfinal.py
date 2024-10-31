@@ -401,7 +401,12 @@ def compare_teams():
     # Tiêu đề ứng dụng
     st.title("MÔ HÌNH ĐÁNH GIÁ PHONG ĐỘ CẦU THỦ")
     st.image("https://static.bongda24h.vn/medias/standard/2018/9/10/FIFPro-va-55-cau-thu-xuat-sac-nhat-the-gioi-mua-giai-201718-hinh-anh.jpg", use_column_width=True)
-
+    # Mục hiển thị gợi ý
+    st.subheader("Gợi ý ID cầu thủ")
+    suggestion_text = st.text_area("Gợi ý về cầu thủ và ID trận đấu:", 
+                                    "1. Erling Haaland - id: 839956  - id 5 trận gần nhất: 12437049, 12764347, 12437039, 12057855, 12057850\n"
+                                    "2. Lionel Messi - id: 12994 - id 5 trận gần nhất: 13018656, 12000826, 12851457, 12851464, 12000815",
+                                    height=150)
     # Nhập ID cầu thủ và ID trận đấu
     player_id = st.text_input("Nhập ID cầu thủ:")
     match_ids = st.text_input("Nhập 5 ID trận đấu (ngăn cách bằng dấu phẩy):")

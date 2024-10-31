@@ -1,0 +1,6 @@
+match_id,name,height,team,position,totalPass,accuratePass,totalLongBalls,accurateLongBalls,totalCross,aerialLost,aerialWon,duelLost,duelWon,challengeLost,dispossessed,totalContest,wonContest,onTargetScoringAttempt,blockedScoringAttempt,goals,wasFouled,fouls,totalOffside,minutesPlayed,touches,rating,possessionLostCtrl,keyPass,expectedAssists
+12437049,Erling Haaland,194,Manchester City,F,5,5,0,0,0,1,2,5,3,0,3,0,0,4,1,1,1,1,0,90,21,6.6,4,0,0
+12764347,Erling Haaland,194,Manchester City,F,7,7,0,0,1,0,4,0,4,0,0,0,0,5,3,2,0,0,0,81,19,8.5,1,1,0.043623
+12437039,Erling Haaland,194,Manchester City,F,8,6,0,0,0,5,0,6,0,0,0,1,0,0,0,0,0,0,0,90,13,6.5,5,1,0.020649
+12057855,Erling Haaland,194,Norway,F,17,10,0,0,0,1,3,1,3,0,0,0,0,0,0,0,0,0,0,90,22,6.9,8,1,0
+12057850,Erling Haaland,194,Norway,F,9,7,0,0,0,0,3,2,5,0,1,2,1,7,1,2,1,0,0,90,28,9.5,4,3,0

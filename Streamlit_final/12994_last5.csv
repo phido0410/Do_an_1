@@ -1,0 +1,6 @@
+match_id,name,height,team,position,totalPass,accuratePass,totalLongBalls,accurateLongBalls,totalCross,aerialLost,aerialWon,duelLost,duelWon,challengeLost,dispossessed,totalContest,wonContest,onTargetScoringAttempt,blockedScoringAttempt,goals,wasFouled,fouls,totalOffside,minutesPlayed,touches,rating,possessionLostCtrl,keyPass,expectedAssists
+13018656,Lionel Messi,169,Inter Miami CF,F,54,39,6,3,6,0,0,6,9,0,1,9,4,5,3,0,1,0,0,90,91,8.5,30,5,0.535818
+12000826,Lionel Messi,169,Inter Miami CF,F,15,13,1,1,0,0,0,2,1,1,0,1,0,4,0,3,1,0,0,33,23,9.7,4,1,0.0711939
+12851457,Lionel Messi,169,Argentina,F,67,54,8,4,3,0,0,2,6,1,1,2,2,4,2,3,3,0,0,90,88,10,18,4,0
+12851464,Lionel Messi,169,Argentina,F,44,32,2,1,4,0,0,2,5,1,0,3,2,2,0,0,2,0,0,90,60,7.2,19,1,0
+12000815,Lionel Messi,169,Inter Miami CF,F,15,13,0,0,0,0,0,0,5,0,0,3,3,0,1,0,2,0,0,29,22,6.9,3,0,0.0765938
