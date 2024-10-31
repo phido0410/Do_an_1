@@ -129,7 +129,7 @@ def analyze_match():
     }
 
     # Thiết lập giao diện
-    st.image('football_banner.jpeg', use_column_width=True)  # Ảnh banner bóng đá
+    st.image("https://e0.365dm.com/23/06/2048x1152/skysports-premier-league-fixtures_6187020.jpg?20230614111423", use_column_width=True) # Ảnh banner bóng đá
     st.title("⚽THỐNG KÊ DỮ LIỆU ĐỘI BÓNG⚽")
 
     st.markdown("""
@@ -399,8 +399,8 @@ def compare_teams():
         return position_map.get(pos, 'Khác')
 
     # Tiêu đề ứng dụng
-    st.title("Ứng Dụng Phân Tích Cầu Thủ Bóng Đá")
-    st.image("banner_cauthu.png", use_column_width=True)
+    st.title("MÔ HÌNH ĐÁNH GIÁ PHONG ĐỘ CẦU THỦ")
+    st.image("https://static.bongda24h.vn/medias/standard/2018/9/10/FIFPro-va-55-cau-thu-xuat-sac-nhat-the-gioi-mua-giai-201718-hinh-anh.jpg", use_column_width=True)
 
     # Nhập ID cầu thủ và ID trận đấu
     player_id = st.text_input("Nhập ID cầu thủ:")
