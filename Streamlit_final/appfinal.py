@@ -12,7 +12,7 @@ import numpy as np
 # Tiêu đề và banner
 st.title("Phân Tích Bóng Đá")
 st.write("Nghe nhạc cho đỡ chán nha!")
-st.video("https://www.youtube.com/watch?v=Bz9dbGWbtpQ")
+st.video("https://www.youtube.com/watch?v=SZisFdrR0p4")
 st.markdown("### Chào mừng đến với ứng dụng phân tích bóng đá")
 
 # Thêm ghi chú
