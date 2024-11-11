@@ -1,0 +1,6 @@
+match_id,name,height,team,position,totalPass,accuratePass,totalLongBalls,accurateLongBalls,totalCross,aerialLost,aerialWon,duelLost,duelWon,challengeLost,dispossessed,totalContest,wonContest,onTargetScoringAttempt,blockedScoringAttempt,goals,wasFouled,fouls,totalOffside,minutesPlayed,touches,rating,possessionLostCtrl,keyPass,expectedAssists
+12437015,Virgil van Dijk,193,Liverpool,D,112,101,13,9,,1,8,1,9,,,1,1,,,,,,,90,119,10,11,1,0.0903516
+12764320,Virgil van Dijk,193,Liverpool,D,66,58,4,2,,1,2,2,2,,,,,,,1,,1,,90,74,9,8,1,0.00733437
+12437002,Virgil van Dijk,193,Liverpool,D,85,79,9,5,,2,1,2,1,,,,,,,2,,,,90,93,9,7,,0.015154
+12436969,Virgil van Dijk,193,Liverpool,D,47,47,1,1,,2,2,2,2,,,,,,,4,,,,90,58,10,,,
+12763940,Virgil van Dijk,193,Liverpool,D,73,65,10,6,,1,4,1,4,,,,,1,,5,,1,,90,80,9,9,,0.0484179
