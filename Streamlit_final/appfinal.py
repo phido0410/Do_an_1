@@ -129,7 +129,7 @@ def analyze_match():
     }
 
     # Thiết lập giao diện
-    st.image("https://e0.365dm.com/23/06/2048x1152/skysports-premier-league-fixtures_6187020.jpg?20230614111423", use_column_width=True) # Ảnh banner bóng đá
+    st.image("https://e0.365dm.com/23/06/2048x1152/skysports-premier-league-fixtures_6187020.jpg?20230614111423", use_container_width=True) # Ảnh banner bóng đá
     st.title("⚽THỐNG KÊ DỮ LIỆU ĐỘI BÓNG⚽")
 
     st.markdown("""
@@ -400,7 +400,7 @@ def compare_teams():
 
     # Tiêu đề ứng dụng
     st.title("MÔ HÌNH ĐÁNH GIÁ PHONG ĐỘ CẦU THỦ")
-    st.image("https://static.bongda24h.vn/medias/standard/2018/9/10/FIFPro-va-55-cau-thu-xuat-sac-nhat-the-gioi-mua-giai-201718-hinh-anh.jpg", use_column_width=True)
+    st.image("https://static.bongda24h.vn/medias/standard/2018/9/10/FIFPro-va-55-cau-thu-xuat-sac-nhat-the-gioi-mua-giai-201718-hinh-anh.jpg", use_container_width=True)
     # Mục hiển thị gợi ý
     st.subheader("Gợi ý ID cầu thủ")
     suggestion_text = st.text_area("Gợi ý về cầu thủ và ID trận đấu:", 
@@ -584,7 +584,7 @@ def predict_outcome():
     # Chèn ảnh banner
     st.image(
         "https://baohagiang.vn/file/4028eaa4679b32c401679c0c74382a7e/4028eaa57d592b24017d5a5e979736bf/092022/image001_20220908082711.jpg",
-        use_column_width=True
+        use_container_width=True
     )
 
     # Tiêu đề chính
@@ -627,7 +627,7 @@ def predict_outcome():
         competition_choice = st.selectbox("Chọn Competition:", competition_display, index=0)
         competition_id = competition_options[competition_choice][0]
         competition_logo_url = competition_options[competition_choice][1]
-        st.image(competition_logo_url, caption=competition_choice.split(" - ")[0], use_column_width=False)
+        st.image(competition_logo_url, caption=competition_choice.split(" - ")[0], use_container_width=False)
 
         # Gợi ý Season ID
         season_options = {
