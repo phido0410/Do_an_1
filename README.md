@@ -1,36 +1,34 @@
 
-# ⚽ Football Analysis Project
+# 📊 Dự án Phân Tích Bóng Đá
 
-## 📖 Overview
+## 📖 Tổng Quan
+Dự án phân tích bóng đá toàn diện được phát triển bằng Python, sử dụng Streamlit để xây dựng giao diện web tương tác. Dự án bao gồm nhiều module: thống kê đội bóng, đánh giá phong độ cầu thủ và phân tích trận đấu bằng Shotmap.
 
-**Football Analysis Project** is a comprehensive football analytics application built with Python and Streamlit. It offers interactive dashboards and insights into team and player performance, along with detailed match shotmaps using data from **SofaScore** and **StatsBomb**.
+## 🎯 Tính Năng Chính
 
-## 🎯 Key Features
+### 1. Thống Kê Đội Bóng
+- Thu thập dữ liệu từ API SofaScore
+- Phân tích hiệu suất toàn đội
+- Hiển thị top cầu thủ (bàn thắng, kiến tạo, tắc bóng,...)
+- Biểu đồ trực quan hóa hiệu suất
 
-### 1. Team Statistics
-- Retrieve team data from SofaScore API
-- Analyze seasonal performance metrics
-- Display top players by goals, assists, tackles
-- Visualize insights with dynamic charts
+### 2. Đánh Giá Phong Độ Cầu Thủ
+- Phân tích 5 trận gần nhất
+- Đánh giá bằng điểm số trung bình
+- Biểu đồ: chuyền, bàn thắng, rating,...
+- Phân loại vị trí (Tiền đạo, Tiền vệ, Hậu vệ)
 
-### 2. Player Performance Analysis
-- Analyze last 5-match performance
-- Use average ratings and key indicators
-- Visualize stats: passes, goals, ratings
-- Categorize player roles (Forward, Midfielder, Defender)
+### 3. Phân Tích Trận Đấu (Shotmap)
+- Dữ liệu từ StatsBomb
+- Vẽ shotmap trên sân bóng
+- Phân tích cú sút hai đội
+- Hiển thị tỉ số và thống kê chi tiết
 
-### 3. Match Analysis via Shotmap
-- Utilize StatsBomb event data
-- Visualize shots on a football pitch
-- Analyze both teams' shooting actions
-- Display match stats and final score
-
-## 🏗️ Project Structure
-
+## 🏗️ Cấu Trúc Dự Án
 ```
 Do_an_1/
-├── Data/                          
-├── Phongdocauthu/                 
+├── Data/
+├── Phongdocauthu/
 │   ├── Đánh giá cầu thủ 5 trận gần nhất/
 │   │   ├── danhgiacauthu.ipynb
 │   │   ├── Crawldatacauthu.py
@@ -51,132 +49,103 @@ Do_an_1/
     └── appfinal.py
 ```
 
-## 🚀 Installation & Usage
+## 🚀 Cài Đặt & Sử Dụng
 
-### Requirements
-- Python 3.8+
-- Libraries: `streamlit`, `pandas`, `matplotlib`, `requests`, `statsbombpy`, `mplsoccer`
+### Yêu Cầu
+- Python >= 3.8
+- Thư viện: `streamlit`, `pandas`, `matplotlib`, `requests`, `statsbombpy`, `mplsoccer`
 
-### Install Dependencies
+### Cài Đặt
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run Application
-
-#### 1. Final integrated app (recommended)
+### Chạy Ứng Dụng
+**Tổng hợp (khuyên dùng):**
 ```bash
 streamlit run Streamlit_final/appfinal.py
 ```
-
-#### 2. Run individual modules
+**Chạy từng module:**
 ```bash
-# Player performance
+# Đánh giá cầu thủ
 streamlit run Phongdocauthu/Streamlit_danhgia_phongdo_cauthu/app2.py
 
-# Team statistics
+# Thống kê đội bóng
 streamlit run Thongketoandoi/Streanlit_thongke_toandoi_trongmuagiai/app.py
 
-# Match shotmap
+# Phân tích Shotmap
 streamlit run Shotmap/Streamlit_shotmap/main3.py
 ```
 
-## 📊 Usage Guide
+## 📊 Hướng Dẫn Sử Dụng
 
-### Team Statistics
-- Select team or enter team ID
-- Choose league and season
-- Click "Lấy dữ liệu" to fetch API data
-- View top players and charts
+### 1. Thống Kê Đội Bóng
+- Chọn đội hoặc nhập ID
+- Chọn mùa giải và giải đấu
+- Bấm “Lấy dữ liệu”
+- Xem biểu đồ và top cầu thủ
 
-### Player Performance
-- Input player ID
-- Enter last 5 match IDs (comma-separated)
-- System:
-  - Crawls API
-  - Creates CSV
-  - Displays analysis & charts
+### 2. Đánh Giá Cầu Thủ
+- Nhập ID cầu thủ
+- Nhập 5 trận gần nhất
+- Tự động crawl dữ liệu và hiển thị biểu đồ, đánh giá
 
-### Shotmap Analysis
-- Choose league and season (StatsBomb)
-- Filter and select match
-- Enter Match ID
-- View interactive shotmap and stats
+### 3. Phân Tích Shotmap
+- Chọn giải đấu, mùa giải từ StatsBomb
+- Nhập ID trận đấu
+- Xem shotmap tương tác
 
-## 🔧 API & Data
+## 🔧 API & Dữ Liệu
 
 ### SofaScore API
 - Host: `sofascore.p.rapidapi.com`
-- Used for player/team stats
-- Endpoints:
-  - `/matches/get-player-statistics`
-  - `/teams/get-statistics`
+- Sử dụng cho: thống kê cầu thủ, đội bóng
 
 ### StatsBomb API
-- Used for match event and shotmap data
-- Library: `statsbombpy`
+- Dùng thư viện `statsbombpy`
+- Phân tích Shotmap và Events
 
-## 📈 Analytics Metrics
+## 📈 Các Chỉ Số Phân Tích
 
-### Player Stats
-- `totalPass`, `accuratePass`, `keyPass`, `goals`, `rating`, `tackles`, `assists`
+- `totalPass`: Tổng số chuyền
+- `accuratePass`: Chuyền chính xác
+- `keyPass`: Đường chuyền then chốt
+- `goals`: Bàn thắng
+- `rating`: Điểm số
+- `tackles`: Tắc bóng
+- `assists`: Kiến tạo
 
-### Performance Rating
-- **High (≥ 7.0)**: Green
-- **Average (6.0 – 6.9)**: Orange
-- **Low (< 6.0)**: Red-orange
+### Phân Loại Phong Độ
+- Cao (≥ 7.0): 🟢
+- Ổn (6.0–7.0): 🟠
+- Thấp (< 6.0): 🔴
 
-## 🎨 UI & Visualization
+## 🎨 Giao Diện & Trực Quan
 
-### Visuals
-- Bar charts
-- Multi-axis plots
-- Football pitch shotmaps
-- Color-coded charts
+- Biểu đồ cột, nhiều trục
+- Sân bóng trực quan
+- Sidebar, banner, nhạc nền
+- Responsive cho trình duyệt
 
-### UI Features
-- Sidebar menus with icons
-- Team logos as ID hints
-- Banner/video background
-- Responsive layout
+## 📝 Tính Năng Nâng Cao
 
-## 📝 Advanced Features
+- Tạo CSV tự động
+- Xử lý dữ liệu thiếu
+- Cảnh báo lỗi chi tiết
+- Caching và quản lý trạng thái
+- Tối ưu hiệu năng
 
-### Data Management
-- Auto CSV generation by ID
-- Handle NaN and missing values
-- Export/import supported
+## 🔮 Kế Hoạch Phát Triển
 
-### Error Handling
-- API connection checks
-- User input validation
-- Detailed error messages
+- Dự đoán kết quả bằng ML
+- So sánh cầu thủ khác đội
+- Phân tích xu hướng theo mùa
+- Tích hợp DB, realtime, đa ngôn ngữ
 
-### Optimization
-- Streamlit caching (`@st.cache_data`)
-- Session state
-- Lazy loading
+## 🤝 Đóng Góp
 
-## 🔮 Future Development
-- ML-based match prediction
-- Cross-team player comparisons
-- Trend analysis over time
-- Multi-source data integration
+Dự án bởi nhóm Phân Tích Bóng Đá. Mọi đóng góp đều hoan nghênh!
 
-### Technical Enhancements
-- Database support
-- Real-time streaming
-- Mobile design
-- Multi-language UI
+## 📄 Giấy Phép
 
-## 🤝 Contribution
-
-Developed by a dedicated football analytics team. Contributions and feedback are welcome!
-
-## 📄 License
-
-This project is intended for academic and research purposes.
-
----
-
-For questions or feedback, feel free to open an issue or contact the dev team.
+Dự án phục vụ học tập và nghiên cứu.
