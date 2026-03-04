@@ -1,8 +1,15 @@
-
 # 📊 Dự án Phân Tích Bóng Đá
 
 ## 📖 Tổng Quan
 Dự án phân tích bóng đá toàn diện được phát triển bằng Python, sử dụng Streamlit để xây dựng giao diện web tương tác. Dự án bao gồm nhiều module: thống kê đội bóng, đánh giá phong độ cầu thủ và phân tích trận đấu bằng Shotmap.
+
+## 🖼️ Giao Diện
+
+### Trang Chủ
+![Trang chủ ứng dụng](pic/pic1.png)
+
+### Tính Năng Phân Tích
+![Tính năng phân tích](pic/pic2.png)
 
 ## 🎯 Tính Năng Chính
 
@@ -28,14 +35,16 @@ Dự án phân tích bóng đá toàn diện được phát triển bằng Pytho
 ```
 Do_an_1/
 ├── Data/
+├── pic/
+│   ├── ảnh1.png
+│   └── ảnh2.png
 ├── Phongdocauthu/
 │   ├── Đánh giá cầu thủ 5 trận gần nhất/
 │   │   ├── danhgiacauthu.ipynb
 │   │   ├── Crawldatacauthu.py
 │   │   └── 151545_last5.csv
 │   └── Streamlit_danhgia_phongdo_cauthu/
-│       ├── app2.py
-│       └── backup.py
+│       └── app2.py
 ├── Shotmap/
 │   ├── Crawl_and_draw_shotmaps 2/
 │   └── Streamlit_shotmap/
@@ -46,7 +55,8 @@ Do_an_1/
 │   └── Streanlit_thongke_toandoi_trongmuagiai/
 │       └── app.py
 └── Streamlit_final/
-    └── appfinal.py
+    ├── appfinal.py
+    └── requirements.txt
 ```
 
 ## 🚀 Cài Đặt & Sử Dụng
@@ -82,7 +92,7 @@ streamlit run Shotmap/Streamlit_shotmap/main3.py
 ### 1. Thống Kê Đội Bóng
 - Chọn đội hoặc nhập ID
 - Chọn mùa giải và giải đấu
-- Bấm “Lấy dữ liệu”
+- Bấm "Lấy dữ liệu"
 - Xem biểu đồ và top cầu thủ
 
 ### 2. Đánh Giá Cầu Thủ
@@ -105,30 +115,13 @@ streamlit run Shotmap/Streamlit_shotmap/main3.py
 - Dùng thư viện `statsbombpy`
 - Phân tích Shotmap và Events
 
-## 📈 Các Chỉ Số Phân Tích
-
-- `totalPass`: Tổng số chuyền
-- `accuratePass`: Chuyền chính xác
-- `keyPass`: Đường chuyền then chốt
-- `goals`: Bàn thắng
-- `rating`: Điểm số
-- `tackles`: Tắc bóng
-- `assists`: Kiến tạo
-
-### Phân Loại Phong Độ
-- Cao (≥ 7.0): 🟢
-- Ổn (6.0–7.0): 🟠
-- Thấp (< 6.0): 🔴
-
 ## 🎨 Giao Diện & Trực Quan
-
 - Biểu đồ cột, nhiều trục
 - Sân bóng trực quan
 - Sidebar, banner, nhạc nền
 - Responsive cho trình duyệt
 
 ## 📝 Tính Năng Nâng Cao
-
 - Tạo CSV tự động
 - Xử lý dữ liệu thiếu
 - Cảnh báo lỗi chi tiết
@@ -136,16 +129,13 @@ streamlit run Shotmap/Streamlit_shotmap/main3.py
 - Tối ưu hiệu năng
 
 ## 🔮 Kế Hoạch Phát Triển
-
 - Dự đoán kết quả bằng ML
 - So sánh cầu thủ khác đội
 - Phân tích xu hướng theo mùa
 - Tích hợp DB, realtime, đa ngôn ngữ
 
 ## 🤝 Đóng Góp
-
 Dự án bởi nhóm Phân Tích Bóng Đá. Mọi đóng góp đều hoan nghênh!
 
 ## 📄 Giấy Phép
-
 Dự án phục vụ học tập và nghiên cứu.
