@@ -2,6 +2,6 @@ streamlit
 pandas
 requests
 matplotlib
+numpy
 mplsoccer
 statsbombpy
-numpy

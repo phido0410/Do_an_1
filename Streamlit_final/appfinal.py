@@ -3,7 +3,6 @@ import pandas as pd
 import requests
 import csv
 import matplotlib.pyplot as plt
-import matplotlib.pyplot as plt
 from mplsoccer.pitch import Pitch
 from statsbombpy import sb
 from pandas import json_normalize
