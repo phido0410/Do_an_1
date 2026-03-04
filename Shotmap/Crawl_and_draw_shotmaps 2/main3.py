@@ -2,7 +2,7 @@ import streamlit as st
 from statsbombpy import sb
 from pandas import json_normalize
 import matplotlib.pyplot as plt
-from mplsoccer.pitch import Pitch
+from mplsoccer import Pitch
 import pandas as pd
 import numpy as np
 

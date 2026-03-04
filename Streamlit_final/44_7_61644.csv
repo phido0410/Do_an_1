@@ -1,21 +1,28 @@
-assists,appearances,shotsOnTarget,totalShots,keyPasses,accuratePasses,tackles,successfulDribbles,accurateLongBalls,goals,interceptions,name,rating,position,type
-,1,,,,33,,,,,,Caoimhin Kelleher,8.3,G,overall
-2,3,5,11,5,50,2,3,5,1,,Mohamed Salah,7.8,F,overall
-1,3,4,7,6,51,4,5,2,,1,Cody Gakpo,7.5333333333333,F,overall
-,3,1,2,6,129,5,1,5,1,4,Alexis Mac Allister,7.5,M,overall
-,3,2,3,1,193,1,,10,1,3,Virgil van Dijk,7.4333333333333,D,overall
-1,3,3,5,5,124,2,5,4,1,1,Dominik Szoboszlai,7.3,M,overall
-,3,1,1,,153,2,,8,1,3,Ibrahima Konaté,7.3,D,overall
-1,3,,5,5,110,1,1,7,,4,Konstantinos Tsimikas,7.2333333333333,D,overall
-,3,,1,2,137,6,3,3,,10,Ryan Gravenberch,7.1666666666667,M,overall
-,3,5,8,1,23,1,1,2,1,,Darwin Núñez,6.9,F,overall
-1,3,,2,4,97,6,1,12,,2,Trent Alexander-Arnold,6.9,D,overall
-,2,,,,60,,,,,,Alisson,6.85,G,overall
-,2,,1,2,38,,1,1,,2,Andrew Robertson,6.8,D,overall
-,2,,,1,19,2,,,,1,Joe Gomez,6.75,D,overall
-,3,1,1,1,41,3,7,,,2,Luis Díaz,6.7333333333333,F,overall
-,2,,,,19,,1,,,,Curtis Jones,6.45,M,overall
-,1,,,,1,,,,,,Conor Bradley,6.3,D,overall
-,2,1,2,2,14,1,,1,,,Diogo Jota,6.25,F,overall
-,1,,,,1,,,,,,Federico Chiesa,,F,overall
-,1,,,,,2,,,,,Wataru Endo,,M,overall
+accuratePasses,totalShots,tackles,keyPasses,assists,rating,position,name,goals,successfulDribbles,accurateLongBalls,type,appearances,shotsOnTarget,interceptions
+156,,,,,7.6333333333333,G,Alisson,,,,overall,6,,
+300,8,19,16,,7.5375,M,Alexis Mac Allister,2,4,12,overall,8,3,8
+14,1,1,,,7.5,M,Tyler Morton,,1,1,overall,1,1,
+116,,,,,7.5,G,Caoimhin Kelleher,,,,overall,4,,
+210,30,5,15,4,7.4333333333333,M,Mohamed Salah,3,7,11,overall,9,11,2
+632,4,6,2,,7.3111111111111,D,Virgil van Dijk,1,1,48,overall,9,2,7
+200,14,9,6,,7.3,M,Luis Díaz,3,20,16,overall,9,7,2
+246,5,5,10,1,7.2166666666667,D,Konstantinos Tsimikas,,2,11,overall,6,,12
+89,13,4,8,1,7.2125,M,Cody Gakpo,3,6,3,overall,8,8,2
+298,2,4,1,,7.2,D,Ibrahima Konaté,1,,14,overall,7,2,9
+17,4,4,,,7.2,F,Federico Chiesa,,3,,overall,3,4,
+373,1,22,6,,7.0777777777778,M,Ryan Gravenberch,,5,8,overall,9,,20
+354,3,6,9,1,7.075,D,Andrew Robertson,,4,10,overall,8,,5
+242,10,9,9,1,7.0444444444444,M,Dominik Szoboszlai,1,7,7,overall,9,3,3
+78,4,,1,,7,M,Harvey Elliott,3,1,2,overall,5,3,3
+191,8,6,7,2,6.9875,M,Curtis Jones,,9,6,overall,8,2,2
+93,1,2,1,,6.875,D,Joe Gomez,,,1,overall,4,1,2
+177,5,1,,,6.8333333333333,D,Jarell Quansah,,,7,overall,4,,4
+233,10,14,5,1,6.825,D,Trent Alexander-Arnold,,4,25,overall,8,2,8
+35,,4,,,6.8,M,James McConnell,,1,,overall,1,,3
+129,2,10,2,1,6.78,D,Conor Bradley,,,2,overall,5,1,1
+63,15,9,5,1,6.7111111111111,F,Darwin Núñez,1,4,6,overall,9,10,1
+76,,5,,,6.55,M,Wataru Endo,,,6,overall,6,,3
+5,,,,,6.5,M,Trey Nyoni,,,,overall,1,,
+37,5,2,2,,6.3,F,Diogo Jota,,,1,overall,4,1,
+8,1,,,,6.1,F,Jayden Danns,,,,overall,1,,
+1,,,,,5.3,D,Amara Nallo,,,,overall,1,,
